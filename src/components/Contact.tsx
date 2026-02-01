@@ -58,7 +58,7 @@ export default function Contact() {
           className="flex flex-col items-center gap-6 mb-12"
         >
           <motion.a
-            href="mailto:info@dejan-markovic.com"
+            href="mailto:marko.mtp8@gmail.com"
             className="flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-cyan-500 to-violet-500 rounded-lg font-medium text-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all hover:-translate-y-1"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
