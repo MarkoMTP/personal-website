@@ -89,6 +89,34 @@ export default function Hero() {
           while solving real problems with a strong team.
         </motion.p>
 
+        {/* ✅ Subtle background + languages */}
+        <motion.div
+          variants={itemVariants}
+          className="mx-auto mb-8 max-w-3xl rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm px-5 py-4"
+        >
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
+            <div>
+              <p className="text-xs uppercase tracking-wider text-gray-400 mb-1">
+                Background
+              </p>
+              <p className="text-sm text-gray-300 leading-relaxed">
+                Bachelor's degree in Linguistics & Business Management —
+                specialization in Russian and English.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-xs uppercase tracking-wider text-gray-400 mb-1">
+                Languages
+              </p>
+              <p className="text-sm text-gray-300 leading-relaxed">
+                Croatian (Native) · English (Fluent) · Italian (Fluent) ·
+                Russian (C1)
+              </p>
+            </div>
+          </div>
+        </motion.div>
+
         {/* Contact */}
         <motion.div
           variants={itemVariants}
